@@ -1,7 +1,8 @@
 import RPi.GPIO as gpio
 import time
-import enemy
 import random
+
+from enemy import chooseEnemy
 
 
 gpio.setmode(gpio.BCM)
@@ -25,5 +26,5 @@ def start():
     print("Please press the 'Action Button' To Start!")
     while True:
         if gpio.input(27) == False:
-            enemy.chooseEnemy()
+            chooseEnemy()
 start()
