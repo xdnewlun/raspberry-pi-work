@@ -28,7 +28,7 @@ enemies = [goblin, zombie, skeleton]
 randomEnemy = rand.randint(0, len(enemies))
 
 def chooseEnemy():
-	randomEnemy = rand.randint(0, len(enemies))
+	randomEnemy = random.randint(0, len(enemies))
 	printEnemy()
 
 def printEnemy():
