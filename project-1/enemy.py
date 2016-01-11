@@ -1,6 +1,7 @@
 import RPi.GPIO as gpio
 import time
 import random
+import math
 
 class goblinClass:
 	hp = 3,
@@ -29,6 +30,7 @@ randomEnemy = random.randint(0, len(enemies))
 
 def chooseEnemy():
 	randomEnemy = random.randint(0, len(enemies))
+	randomEnemy = math.floor(randomEnemy)
 	randomEnemy = enemies[randomEnemy]
 	printEnemy()
 
