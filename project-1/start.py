@@ -26,5 +26,7 @@ def start():
     print("Please press the 'Action Button' To Start!")
     #while True:
     if gpio.input(27) == False:
-        chooseEnemy()
+        print("?")
+    elif gpio.input(27) == True:
+    	print("!")
 start()
