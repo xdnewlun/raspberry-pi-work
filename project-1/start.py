@@ -3,6 +3,7 @@ import time
 import random
 
 from enemy import chooseEnemy
+from enemy import randomEnemy
 
 
 gpio.setmode(gpio.BCM)
