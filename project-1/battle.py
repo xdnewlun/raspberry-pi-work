@@ -2,7 +2,7 @@ import RPi.GPIO as gpio
 import time
 import random
 import enemy
-import character
+import player
 import start
 
 gpio.setmode(gpio.BCM)
