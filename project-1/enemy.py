@@ -30,7 +30,7 @@ randomEnemy = random.randint(0, len(enemies))
 
 def chooseEnemy():
 	randomEnemy = random.randint(0, len(enemies))
-	randomEnemy = math.floor(randomEnemy)
+	randomEnemy = int(math.floor(randomEnemy))
 	randomEnemy = enemies[randomEnemy]
 	printEnemy()
 
