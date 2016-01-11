@@ -17,7 +17,7 @@ class zombieClass:
 class skeletonClass:
 	hp = 6,
 	attack = 1,
-	defence = 2,
+	defence = 1,
 	name = "Skeleton"
 
 goblin = goblinClass()
