@@ -21,3 +21,5 @@ gpio.setup(25,gpio.OUT) #Enemy Green LED
 
 def chooseEnemy():
 	print("Test")
+
+chooseEnemy()
