@@ -1,6 +1,6 @@
 import RPi.GPIO as gpio
 import time
-import os
+import enemy
 import random
 
 
@@ -25,5 +25,5 @@ def start():
     print("Please press the 'Action Button' To Start!")
     while True:
         if gpio.input(27) == False:
-            os.system("python enemy.py")
+            chooseEnemy()
 start()
