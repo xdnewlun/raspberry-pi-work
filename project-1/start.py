@@ -21,13 +21,13 @@ gpio.setup(25,gpio.OUT) #Enemy Green LED
 
 for i in range(0, 100):
     print ""
-
+t = 0
 print("Please press the 'Action Button' To Start!")
 
 def start():
     while True:
     	if gpio.input(17):
-    		start()
+    		t = t + 1
     	else:
     		chooseEnemy()
 start()
