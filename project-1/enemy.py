@@ -29,6 +29,7 @@ randomEnemy = random.randint(0, len(enemies))
 
 def chooseEnemy():
 	randomEnemy = random.randint(0, len(enemies))
+	randomEnemy = enemies[randomEnemy]
 	printEnemy()
 
 def printEnemy():

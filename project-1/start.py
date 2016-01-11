@@ -29,5 +29,6 @@ def start():
     while True:
     	if gpio.input(17) == False:
     		chooseEnemy()
+    		time.sleep(.5)
 start()
 
