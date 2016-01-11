@@ -19,6 +19,5 @@ gpio.setup(23,gpio.OUT) #Enemy RED LED
 gpio.setup(24, gpio.OUT) #Enemy YELLOW LED
 gpio.setup(25,gpio.OUT) #Enemy Green LED
 
-def chooseEnemy(){
+def chooseEnemy():
 	print("Test")
-}
