@@ -3,7 +3,7 @@ import time
 import random
 
 from enemy import chooseEnemy
-from enemy import randomEnemy
+from enemy import printEnemy
 
 
 gpio.setmode(gpio.BCM)
@@ -30,3 +30,4 @@ def start():
     	if gpio.input(17) == False:
     		chooseEnemy()
 start()
+
